@@ -386,9 +386,21 @@ section {
   vertical-align: middle;
 }
 
-.circle-img-large h2 {
- color: white; 
+.circle-img-large-text {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: #990000;
+  margin: 0px 20px;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.circle-img-large-text h2 {
+  color: white;
   font-size: 30px;
+  padding: 30px 15px;
 }
 
 #copypaste {
