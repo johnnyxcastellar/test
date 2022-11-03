@@ -382,6 +382,13 @@ section {
   border-radius: 100px;
   background-color: #990000;
   margin: 0px 20px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.circle-img-large h2 {
+ color: white; 
+  font-size: 30px;
 }
 
 #copypaste {
