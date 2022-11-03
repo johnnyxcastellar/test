@@ -48,7 +48,7 @@ p {
   display: flex;
   align-items: center;
   vertical-align: middle;
-  height: 15px;
+  height: 20px;
   background-color: #034854;
   color: white;
   text-align: center;
@@ -63,7 +63,7 @@ p {
 .navbarButtons {
   width: 125px;
   margin: 0px 20px;
-  padding: 7px 30px;
+  padding: 10px 30px;
   border: solid 2px white;
   border-radius: 50px;
 }
