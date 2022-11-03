@@ -86,7 +86,7 @@ p {
 
 section {
   width: 100%;
-  padding: 20px;
+  padding: 20px 0px;
   display: flex;
   justify-content: center;
   vertical-align: middle;
@@ -279,7 +279,7 @@ section {
 /* -------------- brandsSection --------------- */
 
 #brandSection {
-  padding: 100px 50px;
+  padding: 100px 0px;
   text-align: center;
   background-color: white;
   color: #4b4b4b;
