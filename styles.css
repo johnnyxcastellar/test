@@ -1,0 +1,485 @@
+
+/* -------------- html --------------- */
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  font-family: CenturyGothic, sans-serif;
+  color: #4b4b4b;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 30px;
+    padding: 0;
+}
+
+h3 {
+  font-size: 25px;
+    padding: 0;
+}
+
+p {
+  font-size: 17px;
+    padding: 0;
+}
+
+/* -------------- navbar --------------- */
+
+.navbar {
+  width: 100%;
+  position:fixed;
+  top: 0;
+  margin: 0;
+  padding: 25px 0px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  height: 15px;
+  background-color: #034854;
+  color: white;
+  text-align: center;
+  z-index: 5;
+  box-shadow: 1px 1px 2px #cccccc;
+}
+
+.navbarButtons {
+  width: 125px;
+  margin: 0px 20px;
+  padding: 7px 30px;
+  border: solid 2px white;
+  border-radius: 50px;
+}
+
+#navbarCategories {
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+#navbarCategories a {
+  text-decoration: none;
+  color:inherit;
+}
+
+.navbarButtons:hover {
+  color: #034854;
+  background-color: white;
+  font-weight: 600;
+}
+
+
+/* -------------- Tools --------------- */
+
+section {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.subDivider {
+  margin: auto;
+  width: 200px;
+  height: 1px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.Divider {
+  margin: auto;
+  width: 80%;
+  height: 1px;
+  background-color: #4b4b4b;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.contentContainer {
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
+
+/* -------------- Introduction --------------- */
+
+#introductionSection {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  background-color: #034854;
+  color: white;
+}
+
+#titleHeader h1 {
+  font-size: 70px;
+}
+
+#titleHeader h2 {
+  font-size: 25px;
+  margin: 0px;
+}
+
+#titleHeader h3 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+#brandTitle {
+  margin-bottom: 20px;
+}
+
+.underline-white {
+  width: 250px;
+  height: 5px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+}
+
+#introductionSpace {
+  height:100px;
+}
+
+#overviewContainer {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+#peopleContainer {
+  display: flex;
+  vertical-align: middle;
+}
+
+#people-border {
+  width: 300px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+#turnover {
+  border-radius: 10px;
+  background-color: white;
+  color: #034854;
+  padding: 10px 10px 25px 10px;
+  margin-top: 30px;
+}
+
+#peopleContainer h1 {
+  font-size: 40px;
+}
+
+#countryContainer {
+  padding-left: 40px;
+}
+
+
+#map {
+  max-width: 1000px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  width: 110px;
+  height: 110px;
+  border: solid 2px white;
+  border-radius: 200px;
+  margin: 10px;
+  transition: all .2s ease-in-out;
+}
+
+.circle h3 {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.circle:hover {
+  background-color: white;
+  color: #034854;
+}
+
+.hovertext {
+  position: relative;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+#countryList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#introductionSpace1 {
+  padding-top: 80px;
+}
+
+#cycle-title {
+  margin: 0;
+}
+
+#cycle-img {
+  width: 1000px;
+  margin: 0px 0px 50px 0px;
+}
+
+#chart-img {
+  width: 700px;
+  transition: all .2s ease-in-out;
+}
+
+#chart-img:hover {
+  transform: scale(1.05);
+}
+
+/* -------------- brandsSection --------------- */
+
+#brandSection {
+  padding: 100px 50px;
+  text-align: center;
+  background-color: white;
+  color: #4b4b4b;
+}
+
+#brandTitle {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.underline {
+  width: 400px;
+  height: 5px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-top: solid 1px #4b4b4b;
+  border-bottom: solid 1px #4b4b4b;
+}
+
+#titleHeader h1 {
+  font-size: 70px;
+}
+
+#titleHeader h2 {
+  font-size: 25px;
+  margin: 0px;
+}
+
+#titleHeader h3 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+#vgroupTitle {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.logoGroups {
+  margin: auto;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border: solid 3px #4b4b4b;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.circle-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: red;
+  margin: 0px 20px;
+}
+
+.circle-mask {
+  -webkit-mask-image: radial-gradient(circle, black 70%, rgba(0, 0, 0, 0) 0%);
+  mask-image: radial-gradient(circle, black 70%, rgba(0, 0, 0, 0) 100%);
+}
+
+.dataPresentationContainer {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: 70px 20px;
+}
+
+.dataPresentation {
+  margin: 0px 40px;
+}
+
+.dataPresentation h1 {
+  font-size: 45px;
+  margin: -10px;
+}
+
+.dataPresentation h2 {
+  font-size: 18px;
+}
+
+.dataPresentation h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.circle-img-large {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: red;
+  margin: 0px 20px;
+}
+
+#copypaste {
+  width: 800px;
+}
+
+.tagline h1,h2,h3 {
+  margin: 10px;
+  font: Times, serif;
+}
+
+.tagline h1 {
+  font-size: 40px;
+}
+
+.tagline h2 {
+  font-size: 35px;
+}
+
+.tagline h3 {
+  font-size: 30px;
+}
+
+
+/* -------------- Working Model --------------- */
+
+#ModelSection {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  background-color: #034854;
+  color: white;
+}
+
+#titleHeader h1 {
+  font-size: 70px;
+}
+
+#titleHeader h2 {
+  font-size: 25px;
+  margin: 0px;
+}
+
+#titleHeader h3 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+#brandTitle {
+  margin-bottom: 20px;
+}
+
+.underline-white {
+  width: 400px;
+  height: 5px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+}
+
+#title-tagline {
+  width: 400px;
+  border-radius: 50px;
+  background-color: white;
+  color: #034854;
+  padding: 5px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#workingModelCycle {
+  width: 800px;
+}
+
+.usp {
+  display: flex;
+  justify-content: center;
+}
+
+.usp-content {
+  margin: 0px 20px;
+}
+
+.circle-usp {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  width: 110px;
+  height: 110px;
+  border: solid 4px white;
+  border-radius: 200px;
+  margin: 10px 20px;
+  transition: all .2s ease-in-out;
+}
+
+.circle-usp h1 {
+  padding-top: 18px;
+  font-size: 50px;
+}
+
+.circle-usp:hover {
+  background-color: #FF8E5C;
+  border: solid 4px #FF8E5C;
+  color: #034854;
+}
+
+.usp-content h3:hover {
+  color: #FF8E5C;
+}
