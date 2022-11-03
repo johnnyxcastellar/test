@@ -37,6 +37,10 @@ p {
     padding: 0;
 }
 
+.serif {
+    font-family: 'Georgia', serif;
+}
+
 /* -------------- navbar --------------- */
 
 .navbar {
