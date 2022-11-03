@@ -9,6 +9,8 @@ html {
 body {
   width: 100%;
   margin: 0;
+  left: 0;
+  right: 0;
   padding: 0;
   top: 0;
   font-family: CenturyGothic, sans-serif;
@@ -39,7 +41,7 @@ p {
 
 .navbar {
   width: 100%;
-  position:fixed;
+  /* position:fixed; */
   top: 0;
   margin: 0;
   padding: 25px 0px;
@@ -52,6 +54,10 @@ p {
   text-align: center;
   z-index: 5;
   box-shadow: 1px 1px 2px #cccccc;
+  overflow: hidden;
+
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .navbarButtons {
@@ -480,6 +486,12 @@ section {
   color: #034854;
 }
 
-.usp-content h3:hover {
+.usp-content:hover .circle-usp {
+  background-color: #FF8E5C;
+  border: solid 4px #FF8E5C;
+  color: #034854;
+}
+
+.usp-content:hover h3 {
   color: #FF8E5C;
 }
