@@ -420,6 +420,13 @@ section {
   font-style: italic;
 }
 
+.pill {
+  background-color: #4b4b4b;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
 #PnL h1{
   font-size: 60px;
 }
@@ -432,6 +439,7 @@ section {
   background-color: #4b4b4b;
   height: 3px;
   width: 100px;
+  margin: auto;
 }
 
 .circle-text {
@@ -630,11 +638,13 @@ td h1 {
   max-width: 1000px;
   border-radius: 20px;
   padding: 5px;
-  margin: 50px 0px;
+  margin: auto;
+  margin-bottom: 100px;
   background-color: white;
 }
 
 .infoChart img {
+  margin: auto;
   width: 900px;
   padding: 20px;
 }
@@ -661,7 +671,17 @@ td h1 {
 }
 
 #levels {
-  width: 1000px;
+  width: 900px;
+}
+
+.change {
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px 0px 30px 0px;
+  width: 900px;
+}
+
+.change img {
 }
 
 .usp {
