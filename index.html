@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>App Team</title>
-    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -29,14 +28,12 @@
 
       <div class="contentContainer">
         <div id="titleHeader">
-          <h2>APP 团队</h2>
-          <div class="subDivider"></div>
-          <h1>2019 . 10月</h1>
-          <h3>- 成立 -</h3>
+          <h2>MOBILE APPS <i><u>BUSINESS</u></i> DEPARTMENT</h2>
+          <img src="./Images/timeline.png" id="timeline">
         </div>
         <div class="space" id="introductionSpace"></div>
 
-        <h1 id="brandTitle">团队搭建，形成闭环</h1>
+        <h1 id="brandTitle">团队闭环,赋能产品</h1>
         <div class="underline-white"></div>
 
 
@@ -44,31 +41,25 @@
         <div id="overviewContainer">
           <div id="peopleContainer">
             <div class="border" id="people-border">
-              <h3>团队规模</h3>
+              <h2>团队规模</h2>
               <h1>128 人</h1>
-
-              <div id="turnover">
-                <h3>离职率</h3>
-                <h1>12%</h1>
-              </div>
-
             </div>
           </div>
           <div id="countryContainer">
             <h2>团队分布</h2>
             <div id="countryList">
-              <span class="hovertext" data-hover="Australia"><div class="circle"><h3>澳大利亚</h3></div></span>
-              <span class="hovertext" data-hover="China"><div class="circle"><h3>中国</h3></div></span>
+              <span class="hovertext" data-hover="China"><div class="circle"><h3>北京</h3><p>23人</p></div></span>
+              <span class="hovertext" data-hover="Taiwan"><div class="circle"><h3>台湾</h3><p>11人</p></div></span>
             </div>
             <div id="countryList">
-              <span class="hovertext" data-hover="Singapore"><div class="circle"><h3>新加坡</h3></div></span>
-              <span class="hovertext" data-hover="Malaysia"><div class="circle"><h3>马来西亚</h3></div></span>
+              <span class="hovertext" data-hover="Australia"><div class="circle"><h3>悉尼</h3><p>8人</p></div></span>
+              <span class="hovertext" data-hover="Singapore"><div class="circle"><h3>新加坡</h3><p>23人</p></div></span>
+              <span class="hovertext" data-hover="Malaysia"><div class="circle"><h3>吉隆坡</h3><p>63人</p></div></span>
             </div>
           </div>
         </div>
         <div class="space" id="introductionSpace1"></div>
 
-        <img src="./Images/cycle.gif" id="cycle-img">
 
         <a href="https://miro.com/app/board/uXjVPJt0HtA=/" target="_blank" rel="noopener noreferrer"><img src="./Images/chart.png" id="chart-img"></a>
 
@@ -94,49 +85,111 @@
           <img src="./Images/puprime.jpg" class="circle-mask circle-img">
         </div>
 
+        <div class="dataChart">
+          <img src="./Images/chartInstall.png" class="chart">
+        </div>
+
+        <div class="dataChart">
+          <img src="./Images/chartRegister.png" class="chart">
+        </div>
+
+        <div class="dataChart">
+          <img src="./Images/chartDeposit.png" class="chart">
+        </div>
+
+        <div class="dataChart">
+          <img src="./Images/chartNet.png" class="chart">
+        </div>
+
+        <div class="Divider" id="PnLDivider"></div>
+
         <div class="dataPresentationContainer">
-          <div class="dataPresentation">
+          <div class="dataPresentation" id="PnL">
             <h1>5,800 万</h1>
             <h3>P&L</h3>
           </div>
-          <div class="dataPresentation">
-            <h1>42%</h1>
-            <h3>交易客户</h3>
-          </div>
-          <div class="dataPresentation">
-            <h1>57%</h1>
-            <h3>入金占比</h3>
-          </div>
         </div>
 
-        <div class="Divider"></div>
+        <div class="Divider" id="PnLDivider"></div>
 
-        <div class="dataPresentationContainer">
+
+
+        <div class="dataPresentationContainerChart">
+
           <div class="dataPresentation">
-            <img src="./Images/moneta.png" class="circle-mask circle-img-large">
-            <h2>“白标”<br>可复制</h2>
-          </div>
-          <div class="dataPresentation">
-            <img src="./Images/um.png" class="circle-mask circle-img-large">
-            <h2>裂变开端</h2>
-          </div>
-          <div class="dataPresentation">
-            <div class="circle-mask circle-img-large-text">
-              <h2>STAR</h2>
+            <div class="pieChart">
+              <div class="pie animate fullPie" id="frontPie" style="--p:42;--b:20px;--c:#034854;">
+                <h1>42%</h1>
+                <h3>交易客户占比</h3>
+              </div>
+              <div class="pie animate fullPie" id="backPie"style="--p:100;--b:20px;--c:#cccccc;"></div>
             </div>
-            <h2>择机而动</h2>
+          </div>
+
+          <div class="dataPresentation">
+            <div class="pieChart">
+              <div class="pie animate fullPie" id="frontPie" style="--p:57;--b:20px;--c:#E35728;">
+                <h1>57%</h1>
+                <h3>入金金额占比</h3>
+              </div>
+              <div class="pie animate fullPie" id="backPie"style="--p:100;--b:20px;--c:#cccccc;"></div>
+            </div>
+          </div>
+
+          <div class="dataPresentation">
+            <div class="pieChart">
+              <div class="pie animate fullPie" id="frontPie" style="--p:57;--b:20px;--c:#0900FF;">
+                <h1>57%</h1>
+                <h3>入金笔数占比</h3>
+              </div>
+              <div class="pie animate fullPie" id="backPie"style="--p:100;--b:20px;--c:#cccccc;"></div>
+            </div>
           </div>
         </div>
 
-        <h1 class="serif" id="vgroupTitle">I Group</h1>
 
-        <img src="./Images/copypaste.gif" id="copypaste">
+        <div class="ownBrands">
+          <table style="width:100%" >
+            <tr>
+              <td class="row1" style="width:30%"><h1><strong>自主<br>品牌</strong></h1></td>
+              <td style="width:35%"><div class="dataPresentation">
+                <img src="./Images/um.png" class="circle-mask circle-img-large">
+                <h2>“白标”<br>可复制</h2></div>
+              </td style="width:35%">
+              <td>
+                <div class="dataPresentation">
+                  <img src="./Images/moneta.png" class="circle-mask circle-img-large">
+                  <h2>裂变开端</h2>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
 
-        <div class="tagline serif">
-          <h3>快速可复制</h3>
-          <h2>Infinox ...</h2>
+        <div class="Divider-dot"></div>
 
-        </div> 
+
+        <div class="ownBrands">
+          <table style="width:100%" >
+            <tr>
+              <td class="row1" style="width:30%"><h1><strong>白标</strong></h1></td>
+              <td style="width:35%"><div class="dataPresentation">
+                <div class="circle-text">
+                  <h2>STAR</h2></div>
+                <h2>择机而动</h2></div>
+              </td>
+              <td style="width:35%">
+                <img src="./Images/dots.gif" class="dot">
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="tagline">
+          <h1>I Group</h1>
+          <img src="./Images/dots.gif" class="dot">
+
+        </div>
 
       </div>
 
@@ -151,9 +204,14 @@
 
       <div class="contentContainer">
 
-        <h1 id="brandTitle">业务模式，生态闭环</h1>
+        <h1 id="brandTitle">创新业务模式，打造CFD行业生态闭环</h1>
         <div class="underline-white"></div>
-        <img src="./Images/workingmodel.png" id="workingModelCycle">
+
+        <div class="infoChart">
+          <img src="./Images/progress.png" class="chart">
+        </div>
+
+        <img src="./Images/levels.jpg" id="levels">
 
         <div id="title-tagline">
           <h2>实现降维打击</h2>
@@ -167,7 +225,7 @@
 
           <div class="usp-content">
             <div class="circle-usp"><h1>快</h1></div>
-            <h3>达代快</h3>
+            <h3>迭代快</h3>
           </div>
 
           <div class="usp-content">
