@@ -143,6 +143,12 @@ section {
 
 .dot {
   width: 100px;
+  padding-left: 30px;
+}
+
+.SubTitle {
+  font-size: 45px;
+  padding-top: 50px;
 }
 
 /* -------------- Introduction --------------- */
@@ -174,14 +180,14 @@ section {
 }
 
 #brandTitle {
-  margin-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .timelineContainer {
   max-width: 1000px;
   position: relative;
   top: -70px;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
   /* background-color: red; */
 
@@ -337,8 +343,8 @@ section {
 }
 
 #brandTitle {
-  margin-bottom: 20px;
-  font-size: 40px;
+  margin-bottom: -40px;
+  font-size: 48px;
 }
 
 .underline {
@@ -370,8 +376,7 @@ section {
 }
 
 .logoGroups {
-  margin: auto;
-  width: 800px;
+  margin: auto
   display: flex;
   justify-content: center;
   border: solid 3px #4b4b4b;
@@ -662,10 +667,6 @@ td h1 {
 #titleHeader h3 {
   font-size: 30px;
   margin: 0px;
-}
-
-#brandTitle {
-  margin-bottom: 20px;
 }
 
 .infoChart {
