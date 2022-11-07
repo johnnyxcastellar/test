@@ -121,6 +121,8 @@ section {
 }
 
 .contentContainer {
+  max-width: 1000px;
+  padding: 0px 20px;
 }
 
 .anchor {
@@ -635,7 +637,7 @@ td h1 {
 }
 
 .infoChart {
-  max-width: 1000px;
+  width: 100%;
   border-radius: 20px;
   padding: 5px;
   margin: auto;
@@ -678,7 +680,7 @@ td h1 {
   background-color: white;
   border-radius: 20px;
   padding: 60px 0px 30px 0px;
-  width: 900px;
+  width: 100%;
 }
 
 .change img {
