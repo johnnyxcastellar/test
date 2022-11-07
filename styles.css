@@ -209,6 +209,15 @@ section {
   border-bottom: solid 1px white;
 }
 
+.underline-white-full {
+  width: 820px;
+  height: 5px;
+  margin: auto;
+  margin-bottom: 100px;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+}
+
 #introductionSpace {
   height:100px;
 }
@@ -702,6 +711,18 @@ td h1 {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+#levelsContainer {
+  height: 300px;
+  object-fit: cover;
+  /* background-color: red; */
+}
+
+#levelsContainer img {
+  position: relative;
+  top: -250px;
+  margin: auto;
 }
 
 #levels {
