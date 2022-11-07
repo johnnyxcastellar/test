@@ -498,6 +498,13 @@ td h1 {
 
 .tagline {
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.tagline img {
+  display: block;
+  object-fit: scale-down;
 }
 
 #igroup {
