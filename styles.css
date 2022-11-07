@@ -639,7 +639,6 @@ td h1 {
 .infoChart {
   width: 100%;
   border-radius: 20px;
-  padding: 5px;
   margin: auto;
   margin-bottom: 100px;
   background-color: white;
@@ -673,7 +672,7 @@ td h1 {
 }
 
 #levels {
-  width: 900px;
+  width: 100%;
 }
 
 .change {
