@@ -198,7 +198,7 @@ section {
   margin-top: -50px;
   width: 1000px;
   height: auto;
-  filter: invert(75%);
+  filter: invert(1);
 }
 
 
@@ -235,8 +235,8 @@ section {
   display: flex;
   vertical-align: middle;
   padding: 80px 0px;
-  border: solid 3px #034854;
-  background-color: #034854;
+  border: solid 3px gray;
+  background-color: gray;
   color: white;
   border-radius: 20px;
 }
@@ -263,6 +263,9 @@ section {
   padding-left: 40px;
 }
 
+#countryContainer h2 {
+  color: gray;
+}
 
 #map {
   max-width: 1000px;
@@ -284,8 +287,58 @@ section {
 }
 
 .circle p {
-  font-size: 15px;
+  font-size: 18px;
   margin-top: -7px;
+}
+
+#circle-beijing {
+  border-color: #b4641c;
+  color: #b4641c;
+}
+
+#circle-beijing:hover {
+  background-color: #b4641c;
+  color: white;
+}
+
+#circle-taiwan {
+  border-color: #da6765;
+  color: #da6765;
+}
+
+#circle-taiwan:hover {
+  background-color: #da6765;
+  color: white;
+}
+
+#circle-sydney {
+  border-color: #3b7127;
+  color: #3b7127;
+}
+
+#circle-sydney:hover {
+  background-color: #3b7127;
+  color: white;
+}
+
+#circle-sg {
+  border-color: #7a0e19;
+  color: #7a0e19;
+}
+
+#circle-sg:hover {
+  background-color: #7a0e19;
+  color: white;
+}
+
+#circle-my {
+  border-color: #ebc448;
+  color: #ebc448;
+}
+
+#circle-my:hover {
+  background-color: #ebc448;
+  color: white;
 }
 
 .circle:hover {
@@ -344,7 +397,7 @@ section {
 }
 
 #chart-img:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
 .underline2 {
