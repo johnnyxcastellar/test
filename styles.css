@@ -268,8 +268,8 @@ section {
 .circle {
   width: 110px;
   height: 110px;
-  border: solid 2px white;
-  border-radius: 200px;
+  border: solid 2px #034854;
+  border-radius: 20px;
   margin: 10px;
   transition: all .2s ease-in-out;
 }
