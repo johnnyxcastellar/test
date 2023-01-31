@@ -235,8 +235,8 @@ section {
   display: flex;
   vertical-align: middle;
   padding: 80px 0px;
-  border: solid 3px gray;
-  background-color: gray;
+  border: solid 3px #666666ff;
+  background-color: #666666ff;
   color: white;
   border-radius: 20px;
 }
@@ -264,7 +264,7 @@ section {
 }
 
 #countryContainer h2 {
-  color: gray;
+  color: #666666ff;
 }
 
 #map {
