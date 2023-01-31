@@ -236,6 +236,8 @@ section {
   vertical-align: middle;
   padding: 80px 0px;
   border: solid 3px #034854;
+  background-color: #034854;
+  color: white;
   border-radius: 20px;
 }
 
@@ -287,8 +289,8 @@ section {
 }
 
 .circle:hover {
-  background-color: white;
-  color: #034854;
+  background-color: #034854;
+  color: white;
 }
 
 .hovertext {
