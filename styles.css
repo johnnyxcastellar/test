@@ -332,12 +332,12 @@ section {
 }
 
 #circle-my {
-  border-color: #ebc448;
-  color: #ebc448;
+  border-color: #Ffb200;
+  color: #Ffb200;
 }
 
 #circle-my:hover {
-  background-color: #ebc448;
+  background-color: #Ffb200;
   color: white;
 }
 
